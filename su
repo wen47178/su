@@ -15,21 +15,21 @@ doh-server = https://doh.pub/dns-query
 🇭🇰 香港07 = custom, zzhk03.51tu.pro, 29807, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
 🇭🇰 香港08 = custom, zzhk03.51tu.pro, 29818, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
 🇭🇰 香港09 = custom, zzhk04.51tu.pro, 29809, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
-🇹🇷 土耳其1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-c1EBtrSg
-🇹🇷 土耳其2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-6M4daj3g
-🇹🇷 土耳其3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-fKoQamCW
-🇹🇷 土耳其4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-mkhreYSL
-🇹🇷 土耳其5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-SkC3J7o9
-加纳1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-ofVTh3uL
-加纳2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-NfCOZyMw
-加纳3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-RYkqEOdi
-加纳4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-l0Js2o9H
-加纳5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-JZaykpSu
-🇯🇵 尼日利亚1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-h1Sm24js
-🇯🇵 尼日利亚2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-dI7RlWAw
-🇯🇵 尼日利亚3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-BiHnmUOj
-🇯🇵 尼日利亚4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-a5D4SL7Z
-🇯🇵 尼日利亚5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-ZvgL6V43
+🇹🇷 土耳其1 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-tr_session-c1EBtrSg, udp-relay=false
+🇹🇷 土耳其2 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-tr_session-6M4daj3g, udp-relay=false
+🇹🇷 土耳其3 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-tr_session-fKoQamCW, udp-relay=false
+🇹🇷 土耳其4 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-tr_session-mkhreYSL, udp-relay=false
+🇹🇷 土耳其5 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-tr_session-SkC3J7o9, udp-relay=false
+加纳1 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-gh_session-ofVTh3uL, udp-relay=false
+加纳2 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-gh_session-NfCOZyMw, udp-relay=false
+加纳3 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-gh_session-RYkqEOdi, udp-relay=false
+加纳4 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-gh_session-l0Js2o9H, udp-relay=false
+加纳5 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-gh_session-JZaykpSu, udp-relay=false
+🇯🇵 尼日利亚1 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-ng_session-h1Sm24js, udp-relay=false
+🇯🇵 尼日利亚2 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-ng_session-dI7RlWAw, udp-relay=false
+🇯🇵 尼日利亚3 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-ng_session-BiHnmUOj, udp-relay=false
+🇯🇵 尼日利亚4 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-ng_session-a5D4SL7Z, udp-relay=false
+🇯🇵 尼日利亚5 = socks5, 18.162.153.157, 18038, poiu4717, 9gHUDSv8OK_country-ng_session-ZvgL6V43, udp-relay=false
 [Proxy Group]
 Proxies= select, 🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,🇭🇰 香港04,🇭🇰 香港05,🇭🇰 香港06,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09
 Googleplay= select, 🇹🇷 土耳其1 ,🇹🇷 土耳其2 , 🇹🇷 土耳其3 ,🇹🇷 土耳其4 ,🇹🇷 土耳其5 ,加纳1 ,加纳2 ,加纳3 ,加纳4 ,加纳5 ,🇯🇵 尼日利亚1 ,🇯🇵 尼日利亚2 , 🇯🇵 尼日利亚3 , 🇯🇵 尼日利亚4 ,🇯🇵 尼日利亚5 ,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09 
