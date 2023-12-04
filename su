@@ -1,0 +1,94 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/poiu4717/xin1/main/000 interval=43200 strict=true
+# Thanks @Hackl0us SS-Rule-Snippet
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+dns-server = 114.114.114.114, 223.5.5.5, system
+always-real-ip = stun.l.google.com
+doh-server = https://doh.pub/dns-query
+[Proxy]
+🇭🇰 香港01 = custom, zzhk01.51tu.pro, 29801, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港02 = custom, zzhk01.51tu.pro, 29802, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港03 = custom, zzhk01.51tu.pro, 29803, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港04 = custom, zzhk02.51tu.pro, 29804, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港05 = custom, zzhk02.51tu.pro, 29805, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港06 = custom, zzhk03.51tu.pro, 29806, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港07 = custom, zzhk03.51tu.pro, 29807, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港08 = custom, zzhk03.51tu.pro, 29818, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇭🇰 香港09 = custom, zzhk04.51tu.pro, 29809, chacha20-ietf-poly1305, db866e9d-261b-4868-98d6-29a3104420eb, https://github.com/ConnersHua/SSEncrypt/raw/master/SSEncrypt.module, udp-relay=true
+🇹🇷 土耳其1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-c1EBtrSg
+🇹🇷 土耳其2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-6M4daj3g
+🇹🇷 土耳其3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-fKoQamCW
+🇹🇷 土耳其4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-mkhreYSL
+🇹🇷 土耳其5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-tr_session-SkC3J7o9
+加纳1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-ofVTh3uL
+加纳2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-NfCOZyMw
+加纳3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-RYkqEOdi
+加纳4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-l0Js2o9H
+加纳5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-gh_session-JZaykpSu
+🇯🇵 尼日利亚1 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-h1Sm24js
+🇯🇵 尼日利亚2 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-dI7RlWAw
+🇯🇵 尼日利亚3 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-BiHnmUOj
+🇯🇵 尼日利亚4 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-a5D4SL7Z
+🇯🇵 尼日利亚5 = socks5, 18.162.153.157, 18038, username=poiu4717, password=9gHUDSv8OK_country-ng_session-ZvgL6V43
+[Proxy Group]
+Proxies= select, 🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,🇭🇰 香港04,🇭🇰 香港05,🇭🇰 香港06,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09
+Googleplay= select, 🇹🇷 土耳其1 ,🇹🇷 土耳其2 , 🇹🇷 土耳其3 ,🇹🇷 土耳其4 ,🇹🇷 土耳其5 ,加纳1 ,加纳2 ,加纳3 ,加纳4 ,加纳5 ,🇯🇵 尼日利亚1 ,🇯🇵 尼日利亚2 , 🇯🇵 尼日利亚3 , 🇯🇵 尼日利亚4 ,🇯🇵 尼日利亚5 ,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09 
+
+[Rule]
+DOMAIN-SUFFIX,ipapi.co,Googleplay
+DOMAIN-SUFFIX,ip-api.com,Googleplay
+DOMAIN-SUFFIX,api.ip.sb,Googleplay
+DOMAIN-SUFFIX,IPInfo.io,Googleplay
+DOMAIN-SUFFIX,ipip.net,Googleplay
+DOMAIN-SUFFIX,skk.moe,Googleplay
+DOMAIN-KEYWORD,game,Proxies
+DOMAIN-KEYWORD,gvt1,Proxies
+DOMAIN-KEYWORD,googlevideo.com,Proxies
+DOMAIN-KEYWORD,lra8j.com,DIRECT
+DOMAIN-KEYWORD,cn,DIRECT
+DOMAIN,play-fe.googleapis.com,Googleplay
+IP-CIDR,172.217.160.110/32,Googleplay
+IP-CIDR,172.217.163.46/32,Googleplay
+IP-CIDR,172.217.160.78/32,Googleplay
+IP-CIDR,142.251.42.238/32,Googleplay
+IP-CIDR,142.251.43.14/32,Googleplay
+IP-CIDR,142.251.220.77/32,Googleplay
+IP-CIDR,142.251.42.237/32,Googleplay
+IP-CIDR,172.217.163.45/32,Googleplay
+IP-CIDR,142.250.204.78/32,Googleplay
+IP-CIDR,142.250.66.142/32,Googleplay
+DOMAIN-SUFFIX,1password.com,DIRECT
+DOMAIN-SUFFIX,vultr.com,DIRECT
+DOMAIN-SUFFIX,mb3admin.com,DIRECT
+DOMAIN-SUFFIX,rixcloud.io,DIRECT
+DOMAIN-SUFFIX,tempestapp.io,DIRECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,baidu-int.com,DIRECT
+DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,alt1-mtalk.google.com,DIRECT
+DOMAIN,alt2-mtalk.google.com,DIRECT
+DOMAIN,alt3-mtalk.google.com,DIRECT
+DOMAIN,alt4-mtalk.google.com,DIRECT
+DOMAIN,alt5-mtalk.google.com,DIRECT
+DOMAIN,alt6-mtalk.google.com,DIRECT
+DOMAIN,alt7-mtalk.google.com,DIRECT
+DOMAIN,alt8-mtalk.google.com,DIRECT
+DOMAIN,alt9-mtalk.google.com,DIRECT
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,time-ios.apple.com,DIRECT
+DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-KEYWORD,github,Proxies
+DOMAIN-SUFFIX,github.com,Proxies
+DOMAIN-SUFFIX,github.io,Proxies
+DOMAIN-SUFFIX,githubassets.com,Proxies
+DOMAIN-SUFFIX,githubusercontent.com,Proxies
+DOMAIN-SUFFIX,googleapis.cn,Proxies
+DOMAIN-SUFFIX,maying.co,Proxies
+DOMAIN-SUFFIX,flowercloud.net,Proxies
+DOMAIN-SUFFIX,socloud.me,Proxies
+DOMAIN-SUFFIX,ytoo.asia,Proxies
+DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+GEOIP,CN,DIRECT
+FINAL,Proxies
