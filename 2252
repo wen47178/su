@@ -45,11 +45,11 @@ Japan 05=ss,east.ajjpss.lol,43005,encrypt-method=chacha20-ietf-poly1305,password
 土耳其6=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-tr_session-Di1kvToB, udp-relay=false
 土耳其7=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-tr_session-M0JA6Du4, udp-relay=false
 土耳其8=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-tr_session-lLD9S10k, udp-relay=false
-加纳1=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-t8UnAZgi, udp-relay=false
-加纳2=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-JEjfBD7v, udp-relay=false
-加纳3=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-iyAJ0XhZ, udp-relay=false
-加纳4=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-KtvkwuT3, udp-relay=false
-加纳5=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-pbfqgiTr, udp-relay=false
+加纳1=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-4iLOjmC3, udp-relay=false
+加纳2=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-uSNqiotb, udp-relay=false
+加纳3=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-kIpFqQOC, udp-relay=false
+加纳4=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-7YorR6UG, udp-relay=false
+加纳5=socks5, 150.109.18.53,30885,thojhng,VgkIj7Kiy1_country-gh_session-4ghmcZRF, udp-relay=false
 哥伦比亚1=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-ng_session-0FNntGqj, udp-relay=false
 哥伦比亚2=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-co_session-x0ZvcEXJ, udp-relay=false
 哥伦比亚3=socks5, 150.109.18.53,30885,poiu4717,9gHUDSv8OK_country-co_session-veUo7ONB, udp-relay=false
